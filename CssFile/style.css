@@ -1,0 +1,945 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/*  Custom  start*/
+
+.container {
+    width: 100%;
+    max-width: 1266px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+p {
+    color: #000;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+h2 {
+    color: #000;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: #000;
+    font-family: "Montserrat", serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+h4 {
+    color: #000;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+
+.doller-btn {
+    color: #000000;
+    background-color: #FCD12E;
+    border-radius: 4.689px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.503px;
+
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.small-btn {
+    color: #000000;
+    background-color: #FCD12E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 5px;
+
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.box-btn {
+    color: #000000;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 80px;
+
+
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 111%;
+    text-transform: uppercase;
+}
+
+.red-btn {
+    color: #ffffff;
+    background-color: #F43160;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 80px;
+    border-radius: 5px;
+
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 100%;
+    margin-top: 23px;
+
+
+}
+
+
+/*  Custom End */
+
+
+
+.offers {
+    border-bottom: 1px solid #FCD12E;
+    background: #FFF8DC;
+    text-align: center;
+    padding: 17px 0;
+}
+
+.offers p {
+    color: #000;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offers span {
+    font-weight: 700;
+}
+
+
+
+/* header Start */
+
+.header .inner-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 0;
+}
+
+
+
+/* selecter CSS  start */
+
+
+
+button {
+    font-weight: 900;
+    color: black;
+    border: none;
+
+}
+
+.container__title {
+    width: 100%;
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.select-dropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+.select-dropdown__button {
+    padding: 10px 96px 3px 0px;
+    background-color: #fff;
+    color: #616161;
+    cursor: pointer;
+    width: 71px;
+    text-align: left;
+}
+
+
+.select-dropdown__button-tra {
+    padding: 10px 22px 3px 0px;
+    background-color: #fff;
+    color: #616161;
+    cursor: pointer;
+    width: 197px;
+    text-align: left;
+}
+
+.select-dropdown__button-tra::focus {
+    outline: none;
+}
+
+.select-dropdown__button-tra .zmdi-chevron-down {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
+.select-dropdown__button-rupi {
+    padding: 10px 22px 11px 0px;
+    background-color: #fff;
+    color: #616161;
+    cursor: pointer;
+    width: 74px;
+    text-align: left;
+}
+
+.select-dropdown__button-rupi::focus {
+    outline: none;
+}
+
+.select-dropdown__button-rupi .zmdi-chevron-down {
+    position: absolute;
+    right: 10px;
+    top: -2px;
+}
+
+
+.select-dropdown__button::focus {
+    outline: none;
+}
+
+.select-dropdown__button .zmdi-chevron-down {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
+
+.select-dropdown__list-item {
+    display: block;
+    list-style-type: none;
+    padding: 10px 15px;
+    background: #fff;
+    border-top: 1px solid #e6e6e6;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    color: #616161;
+    transition: all ease-in-out 0.3s;
+} 
+
+
+ul.select-dropdown__list {
+    display: none;
+}
+
+
+ul.select-dropdown__list.active {
+    display: block;
+}
+.zmdi {
+    display: inline-block;
+    font: normal normal normal 14px / 1 'Material-Design-Iconic-Font';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* border-left: 1px solid black; */
+    padding-left: 26px;
+    height: 46px;
+}
+
+.zmdi-chevron-down:before {
+    content: '\f2f9';
+    position: absolute;
+    bottom: 14px;
+    right: 0;
+    font-size: 19px;
+}
+
+.text-head {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 10px;
+    font-weight: 100;
+}
+ul.select-dropdown__list.active {
+    display: block;
+    position: absolute;
+    z-index: 999;
+}
+
+/* Select Css End */
+
+
+.header .inner-header .shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header .inner-header .select-dropdown {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    margin-right: 0;
+}
+
+.header .fa-bars {
+    display: none;
+}
+
+
+
+/*header End */
+
+
+/* Sale offer Css Start */
+.sale-offer {
+    background-color: #015D90;
+    /* padding: 20px; */
+    position: relative;
+}
+
+.sale-offer .inner-sale-offer{
+    padding: 20px;
+}
+
+.sale-offer .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.sale-offer .row .left {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.sale-offer .row .left p {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sale-offer .row .right {
+    display: flex;
+    align-items: center;
+    background: #FCD12E;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.sale-offer .row .right img {
+    width: 69px;
+    margin: 5px 8px 5px -46px;
+}
+
+.sale-offer .row .right p.mega {
+    color: #000;
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sale-offer .row .right p.course {
+    color: #000;
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Sale offer Css End */
+
+
+
+
+/*banner Section Start */
+.banner {
+    background: #FFF;
+}
+
+.banner .inner-banner {
+    padding: 45px 0;
+}
+
+.banner .row-1 {
+    display: flex;
+    width: 100%;
+    /* gap: 50px; */
+
+}
+
+.banner .row-1 .left {
+    width: 50%;
+    padding-right: 25px;
+}
+
+.banner .row-1 .right {
+    width: 50%;
+    padding-left: 25px;
+}
+
+
+
+.banner #sync1 .owl-video-wrapper {
+    height: 611px;
+}
+
+.banner #sync2 {
+    width: 100%;
+}
+
+.banner #sync2 .owl-video-wrapper {
+    height: 150px;
+}
+
+.banner #sync2 .owl-video-play-icon {
+    display: none;
+}
+
+.banner #sync2 .owl-video-tn {
+    cursor: pointer;
+    margin: 0 14px;
+}
+
+.banner .owl-carousel .owl-video-play-icon {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    background: url(image/Vector.png) no-repeat;
+    cursor: pointer;
+    z-index: 1;
+    /* -webkit-backface-visibility: hidden; */
+    transition: transform .1s ease;
+}
+
+
+
+/*Summary*/
+.banner .summary {
+    margin: 48px 0;
+}
+
+.banner .summary p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Montserrat", serif;
+    text-transform: capitalize;
+}
+
+.banner .summary .col {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 1px solid rgb(189, 182, 182);
+}
+
+.banner .summary .left {
+    vertical-align: middle;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: normal;
+}
+
+.banner .summary .left img {
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.banner .summary .right {
+    text-align: right;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-style: normal;
+    line-height: normal;
+    font-family: "Montserrat", serif;
+
+}
+
+/*testimonial */
+
+.banner .testimonial .owl-theme .owl-dots .owl-dot span {
+    width: 104px;
+    height: 5px;
+}
+
+.banner .testimonial .owl-carousel .owl-item img {
+    display: inline;
+    width: auto;
+}
+
+.banner .testimonial .owl-carousel.owl-drag .owl-item {
+    background: #F2F9FF;
+    padding: 16px 47px;
+    border-radius: 11px;
+    /* width: 617px !important; */
+}
+
+.banner .testimonial .testimonial-crosel .owl-stage-outer {
+    height: 186.031px !important
+}
+
+/* bundle */
+
+
+.banner .bundle-p {
+    margin-top: 48px;
+}
+
+.banner .bundle-p p.text {
+    color: #015D90;
+    font-weight: 400;
+}
+
+
+
+/*right side */
+/* online course */
+
+.banner .online-course h2 {
+    margin: 23px 0;
+}
+
+.banner .online-course .btn {
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+    font-size: 25px;
+    gap: 5px;
+}
+
+.banner .online-course .btn span {
+    font-size: 25px;
+    color: #b3b3b3;
+    font-weight: 400;
+
+}
+
+.banner .online-course .doller-btn {
+    padding: 4.503px;
+}
+
+.banner .outer-pay {
+    margin-top: 23px;
+}
+
+.banner .outer-pay {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    background-color: #FFF8DC;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-top: 23px;
+
+    p{
+        font-size: 14px;
+    }
+}
+
+.banner .outer-pay  span {
+    font-weight: 700;
+}
+
+.banner ul {
+    margin-top: 23px;
+}
+
+.banner ul li {
+    list-style: none;
+    font-weight: 700;
+    font-family: "Nunito Sans";
+}
+
+.banner ul li img {
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.banner .box-text-content {
+    display: flex;
+    align-items: center;
+}
+
+ .banner .box-text-content .box-text {
+    font-weight: 700;
+    font-family: "Nunito Sans";
+} 
+
+.banner .box-text-content img {
+    display: flex;
+    justify-content: center;
+    padding: 11px 12px 15px 8px;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    height: 47px;
+    width: 41px;
+} 
+
+
+
+.banner .red-text a {
+    color: #3086C8;
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    font-weight: 600;
+
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+
+}
+
+.banner .red-btn .fa-arrow-right-long:before {
+    content: "\f178";
+    margin-left: 20px;
+}
+
+.banner .red-text {
+    text-align: center;
+    margin-top: 13px;
+}
+
+.banner .border-top {
+    width: 100%;
+    border: 1px solid #000;
+    opacity: 0.21;
+    margin: 23px 0;
+}
+
+.banner .slider p span {
+    font-weight: 900;
+}
+
+
+.banner .bundle .box {
+    text-align: center;
+    margin: 2px 11px;
+    background-color: #F2F9FF;
+    padding: 10px 10px;
+    border-radius: 5px;
+    width: calc(100% - 11px);
+}
+
+.banner .bundle .box img {
+    width: auto;
+}
+
+.banner .bundle .box p {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .bundle .box .btn {
+    font-size: 14.634px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.banner .bundle .box .btn del {
+    color: #B3B3B3;
+}
+
+.banner .bundle .box .doller-btn {
+    padding: 1px;
+}
+
+
+.banner .bundle .box .outer-box {
+    display: grid;
+    justify-content: center;
+    margin-left: 11px;
+}
+
+.banner .bundle .box .inner-box {
+    margin-top: -74px;
+    margin-left: -6px;
+}
+
+.banner .bundle .box .box-btn {
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 9px 20px;
+    /* background-color: transparent; */
+    margin-top: 10px;
+}
+
+.banner .bundle .box .box-btn:nth-child(2) {
+    background-color: red;
+}
+
+.banner .bundle {
+    margin-top: 15px;
+}
+
+.banner .slider .owl-theme .owl-dots .owl-dot.active span {
+    width: 40px;
+    position: relative;
+    top: -29px;
+}
+
+.banner .slider .owl-theme .owl-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner .slider .owl-theme .owl-dots .owl-dot span {
+    position: relative;
+    top: -29px;
+}
+
+
+.banner .slider .owl-carousel .owl-nav button.owl-prev,
+.banner .slider .owl-carousel .owl-nav button.owl-next {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.banner .slider .owl-theme .owl-nav [class*='owl-']:hover {
+    background-color: transparent;
+    color: #161515;
+    text-decoration: none;
+}
+
+.banner .border-bottom {
+    width: 100%;
+    border: 1px solid #000;
+    opacity: 0.21;
+    margin: 23px 0;
+}
+
+.banner .guaranty {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner .guaranty .box {
+    text-align: center;
+    width: 33.3333%;
+}
+
+.banner .guaranty .box p span {
+    font-weight: 800;
+}
+
+.banner form {
+    margin-top: 23px;
+    background-color: #FFF8DC;
+    border-radius: 5px;
+    padding: 21px 30px;
+    text-align: center;
+}
+
+.banner form span {
+    font-weight: 900;
+}
+
+
+.banner form .name {
+    width: 100%;
+    display: flex;
+    gap: calc(20px - 10px);
+}
+
+.banner form .name input {
+    padding: 12px 65px 12px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.banner form input {
+    padding: 12px 65px 12px 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-top: 9px;
+
+}
+
+.banner form .red-btn {
+    margin-top: 9px;
+    padding: 8px 75px;
+}
+
+
+
+/*Accordain Part */
+
+.banner .outer-accordian {
+    margin-top: 20px;
+}
+
+.banner .outer-accordian .outer-bdr {
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+}
+
+.banner .outer-accordian .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.banner .outer-accordian .active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.banner .outer-accordian .accordion:after {
+    content: '\02227';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.banner .outer-accordian .active:after {
+    content: "\02228";
+}
+
+.banner .outer-accordian .panel {
+    padding: 0 51px 0 32px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.banner .outer-accordian .panel h4 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+
+.banner .outer-accordian .box {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.banner .outer-accordian .box img {
+    display: flex;
+    justify-content: center;
+    padding: 14px 12px 21px 7px;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    height: 47px;
+    width: 41px;
+}
+
+
+/*banner Section End */
+
+/*outer border Start  */
+
+.outer-border {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0;
+}
+
+.outer-border .bottom-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outer-border .company-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* outer border End */
